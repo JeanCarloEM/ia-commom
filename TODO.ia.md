@@ -100,6 +100,12 @@
   - Criar `memory.md`, `fix.md` e `FT.implementados.md` no mesmo diretório canônico de `continue.ia`, ou migrar equivalentes sem perda:
     - `continue.ia`: somente estado corrente e retomável de cada FT, atualizado a cada menor passo material com próxima ação, evidência, impedimento e autorização.
     - `memory.md`: aprendizado durável do projeto para IA — acertos, falhas, tentativas, custos/durações e diferenças por computador/runtime — ultradenso, obrigatório salvo operação totalmente mecânica substituível por script.
+      - Quando houver hipótese material de que o ambiente de execução causou ou influenciou um resultado, registrar identificador estável e não secreto do equipamento obtido por API suportada do sistema operacional ou kernel, além de SO/kernel/build, arquitetura, runtime, versões das ferramentas, virtualização/container e hardware apenas quando relevantes. Nome livre do host, inferência ou dado mutável isolado NÃO satisfazem a identificação; segredo, serial sensível ou dado pessoal desnecessário NÃO PODEM ser persistidos.
+      - Vincular cada resultado ao comando/entrada, hash ou versão do projeto, timestamp, exit code/erro, condições observadas e fingerprint do ambiente. Registrar também a hipótese, a evidência que a sustenta, a próxima condição útil de retentativa e toda alteração relevante do projeto ou ambiente desde a tentativa anterior.
+      - Uma falha potencialmente local PODE ser retentada em outro equipamento/ambiente independente e identificado. Se o mesmo problema for reproduzido em mais de um equipamento/ambiente independente, cessar insistência em novos computadores até que a causa ambiental/projetual seja resolvida ou uma mudança material registrada justifique nova tentativa.
+      - Reavaliar falha histórica quando mudança relevante no projeto, dependências, ferramenta, runtime, SO/kernel, configuração ou infraestrutura puder invalidar a conclusão anterior; preservar o histórico e registrar por que a nova tentativa passou a ser informativa.
+      - Aprendizado não previsto em `AGENTS.md`/RCF e nunca solicitado como norma PODE ser armazenado quando houver evidência reiterada no mesmo contexto específico, mas permanece evidência operacional, NÃO autoridade nem norma implícita.
+      - Nunca generalizar aprendizado específico nem especializar aprendizado generalista sem evidência reiterada que justifique exatamente a mudança de escopo; registrar contexto, amostra, contraexemplos e limite de aplicabilidade.
     - `fix.md`: roteador mínimo de reclamações/correções do dev, com contexto, circunstância, FT/TO-DO/issue, commits, evidências e fonte detalhada; consultado quando nova mudança tocar o mesmo risco.
     - `FT.implementados.md`: índice mínimo, contextual e subroteável de FTs concluídas, apontando para pedido/evidências originais; sem etapas históricas no corpo.
   - Migrar de `continue.ia` somente aprendizado durável; preservar nele todo estado ativo/retomável. Produzir matriz `conteúdo antigo → destino → hash/evidência` antes de remover duplicação.
@@ -153,6 +159,7 @@
     - classificação comprovada de scripts/cenários; nenhum wrapper ou Subagent sem benefício mensurado;
     - espera longa sem polling excessivo, com timeout e métricas por ambiente;
     - migração e roteamento de `continue.ia`, `memory.md`, `fix.md` e `FT.implementados.md` sem perda;
+    - identidade do equipamento obtida por API de SO/kernel, provenance reproduzível, decisão de retentativa entre ambientes, reabertura após mudança material, interrupção após reprodução independente e limites de generalização/especialização de aprendizado;
     - gramática/status/Equalizar de `TODO.ia.md`, incluindo retomada e aprovação humana;
     - fixtures visuais de imagem/PDF e matriz responsiva com evidência antes/depois;
     - build, testes, índice, `dist/`, pacote, instalação limpa, atualização de consumidor e regressão completa.

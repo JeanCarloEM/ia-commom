@@ -18,14 +18,15 @@ FT-002|nome=todo-evolucao-agents-upstream|escopo=Tecnico|status=em_andamento
 objetivo=Converter o TODO.ia.md em uma TO-DO unica, pesquisada e executavel para evoluir o repositorio construtor de agents.md, sem implementar o upstream.
 fontes=.ia.rules/state/requests/FT-002/
 autorizacao=Solicitacao humana de 2026-09-12 para executar TODO.ia.md.
-1/3 Pesquisar, preservar e equalizar [em andamento]
+validacao=fonte e adendo preservados por SHA-256; hierarquia com uma unica raiz; cobertura semantica auditada; quick_validate e npm run check aprovados.
+1/3 Pesquisar, preservar e equalizar [concluido]
   1/3 Preservar a fonte e registrar rastreabilidade [concluido]
-  2/3 Pesquisar fontes primarias e academicas recentes [em andamento]
-  3/3 Resolver conflitos e condicionais sem perder requisitos [pendente]
-2/3 Gerar o artefato [pendente]
-  1/2 Reestruturar TODO.ia.md pela skill gerar-pedidos-ia [pendente]
-  2/2 Corrigir apenas referencias locais quebradas da skill [pendente]
-3/3 Validar e concluir [pendente]
-  1/3 Auditar cobertura semantica, hierarquia e fontes [pendente]
-  2/3 Executar validacoes aplicaveis do repositorio [pendente]
-  3/3 Commitar e publicar dev sem alterar o upstream [pendente]
+  2/3 Pesquisar fontes primarias e academicas recentes [concluido]
+  3/3 Resolver conflitos e condicionais sem perder requisitos [concluido]
+2/3 Gerar o artefato [concluido]
+  1/2 Reestruturar TODO.ia.md pela skill gerar-pedidos-ia [concluido]
+  2/2 Corrigir apenas referencias locais quebradas da skill [concluido]
+3/3 Validar e concluir [em andamento]
+  1/3 Auditar cobertura semantica, hierarquia e fontes [concluido]
+  2/3 Executar validacoes aplicaveis do repositorio [concluido]
+  3/3 Commitar e publicar dev sem alterar o upstream [em andamento]
