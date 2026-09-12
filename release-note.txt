@@ -1,0 +1,18 @@
+Release v0.1.3
+
+- c32e971 chore: aciona release v0.1.3
+- 852aeff chore: gera artefato v0.1.3
+- b0ce314 chore: prepara release v0.1.3
+- 0ec0c57 prepara release 0.1.3
+- 5f49512 conclui FTs técnicas
+- ff9d244 fecha rastreabilidade residual
+- d90064f fecha fallbacks do atualizador
+- e09e876 sincroniza rastreabilidade
+- faeb453 preserva divergência Git
+- 0765a84 inclui guarda ativa
+- 4b1abc4 corrige atualização e fronteira
+- 53c494b conclui normas da 0.1.3
+- 8defcc7 normatiza atualização e escopo
+- 430491c registra FTs da 0.1.3
+- 2dc9098 solicita  mais foraca ao escopo de atuação ser apenas o respoitório aberto; solicita queo atualizador seja ainda mais resiliente e não abortivo.
+- a3106ff conclui FT-070
