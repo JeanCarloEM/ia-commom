@@ -1,10 +1,22 @@
 - [ ] criar um texto de uma ou multiplas TO-DO(s), conforme a necessidade, utilizando a skill `gerar-pedidos-ia`, de forma criteriosa:
   - CONTEXTO:
-    - Skills e Subagents no contexto de Agents Engineering — pesquisa na Web, em sites bem conceituados e, em especial, em artigos acadêmicos disponíveis publicamente e recentes, sobre as melhores práticas, melhores métodos e melhores formas.
+    - Skills e Subagents no contexto de Agents Engineering — pesquisa na Web, em sites bem conceituados e, em especial, em artigos acadêmicos disponíveis publicamente e recentes, sobre as melhores práticas, melhores métodos e melhores formas. Uma tabela conceitual, mas simplória, de comparativo entre Agente e Skill, segue abaixo:
+
+      ##
+
+      | Dimensão Analítica           | [ AGENTE ] <br> A Abordagem Padrão                            | [ SKILL ] <br> A Habilidade Injetada                             |
+      | :--------------------------- | :------------------------------------------------------------ | :--------------------------------------------------------------- |
+      | **Natureza do Processo**     | Probabilística / "YOLO". Resolve no improviso.                | Determinística. Previsibilidade estrutural.                      |
+      | **Padrão de Execução**       | Explora, deduz e tenta descobrir caminhos desconhecidos.      | Segue um rigoroso roteiro operacional (SOP) passo a passo.       |
+      | **Risco de Alucinação**      | Moderado/Alto se a tarefa for complexa e o contexto inchado.  | Quase nulo (o modelo é forçado a um trilho estreito).            |
+      | **Carga Cognitiva (Tokens)** | Dinâmica e expansiva.                                         | Focada e contida ao escopo.                                      |
+      | **Regra de Ouro (Uso)**      | O caminho é desconhecido ou requer profunda análise criativa. | O caminho é conhecido e exige consistência corporativa absoluta. |
+
     - Os mesmos critérios e diretivas exigidos/requeridos pelo agents.md na confecção de normas DEVEM se aplicar;
     - O objetivo do resultado é uma TO-DO que editará o agents.md diretamente no repositório upstream de origem.
       - NÃO é para executar as solicitações, APENAS criar a TO-DO, que será inserida no repositório construtor do agents.md.
       - O target `agents.md` para edição no repositório construtor é o `./src/`, exceto o RCF e sub-RCFs, que devem ser atualizados.
+
   - SOLICITAÇÕES:
     - Aplique, sem perder os detalhes, nuances, rigor técnico, intensidade, força e explicitude já existentes no agents.md e RCF, neste apenas chamado de normas.
     - O conceito de SKILL e de SubAgents DEVE ser introduzido de forma explícita e utilizar, obrigatoriamente, o conceito de roteamento para inclusão de subarquivos (as SKILLs e SubAgents) APENAS quando efetivamente necessários.
