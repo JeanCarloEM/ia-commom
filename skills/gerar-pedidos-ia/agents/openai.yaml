@@ -1,5 +1,5 @@
 interface:
-  display_name: "Gerar artefatos técnicos"
+  display_name: "Gerar pedido para IA"
   short_description: "Gera prompts, issues, RCFs e TODOs técnicos"
   default_prompt: "Use $gerar-artefatos-tecnicos para converter esta solicitação em um artefato técnico pronto para outra IA."
 
