@@ -1,34 +1,110 @@
-- [ ] criar um texto de TO-DO(s) utilizando a skill `gerar-pedidos-ia`:
+- [ ] criar um texto de uma ou multiplas TO-DO(s), conforme a necessidade, utilizando a skill `gerar-pedidos-ia`, de forma criteriosa:
   - CONTEXTO:
-    - Skills e Subagents no contexto de Agents Engineering - pesquisa na WEb, em sites bem conseituados, e em especial, em artigos academicos disponíveis publicamente, e recentes, sobre as melhores práticas, melhores me'todos e melhores formas.
-    - os mesmo critérios e diretivas exigidos/requeridos pelo agents.md na confeção de normas DEVE se aplicar;
-    - O objetivo do resulto é é uma TO-DO que, editará o agents.md, diretamente no repositório upstream de origem.
-      - NÃO é para executar as solicitações, APENAS criar a TO-DO, que será inserida no repositório construtor do agents.md
-      - target `agents.md` para edição no repositório construtor é o `./src/`, exceto o RCF, sub RCFs que devem ser atualizados.
+    - Skills e Subagents no contexto de Agents Engineering — pesquisa na Web, em sites bem conceituados e, em especial, em artigos acadêmicos disponíveis publicamente e recentes, sobre as melhores práticas, melhores métodos e melhores formas.
+    - Os mesmos critérios e diretivas exigidos/requeridos pelo agents.md na confecção de normas DEVEM se aplicar;
+    - O objetivo do resultado é uma TO-DO que editará o agents.md diretamente no repositório upstream de origem.
+      - NÃO é para executar as solicitações, APENAS criar a TO-DO, que será inserida no repositório construtor do agents.md.
+      - O target `agents.md` para edição no repositório construtor é o `./src/`, exceto o RCF e sub-RCFs, que devem ser atualizados.
   - SOLICITAÇÕES:
-    - Aplique sem perder os detalhes, nuances, rigor técnico, intencidade, força e explicitude já existenes nas em agents.md e RCF, neste apenasd chamado de normas.
-    - O conceito de SKILL e de SubAgents DEVE ser introduzido de forma expliícita, e utilizar, obrigatóriamente, o conceito de roteamento para inclusão de subarquivos (as SKILL e SubAgents) APENAS quando efetivamente necessários.
+    - Aplique, sem perder os detalhes, nuances, rigor técnico, intensidade, força e explicitude já existentes no agents.md e RCF, neste apenas chamado de normas.
+    - O conceito de SKILL e de SubAgents DEVE ser introduzido de forma explícita e utilizar, obrigatoriamente, o conceito de roteamento para inclusão de subarquivos (as SKILLs e SubAgents) APENAS quando efetivamente necessários.
     - O arquivo principal, agents.md, DEVE ter no máximo 400 tokens.
-    - Conceitos óbivio para a IA, que não necessitem de pesquisa externa, nem de leitura de novos tokens, NÁO DEVEM ser explicitados:
-      - Mero exemplo: "soma-se 2 mais 4", esta frase demonstra um coiceito muito básico (de nível de ensino fuindamental), que espera-se que a IA saiba, sem precisar ler novos tokens, sem precisar pesquisar conteúdo externo, e sem demandar processamento adicional; é diferente por mero exemplo, de uma outra frase, como "visando mitigar o fluxo de cómodities que poderiam impactar a demanda local, e ao mesmo, uma tentativa frívola de incentivar a o desenvolvimento de produção nacional, mesmo diante de altas taxas de impostos" pode ser uma frase que, apesar da uma aparente lógica, exija conhecimento mais específicos da área.
-      - Assim sendo, SOMENTE SE, e APENAS SE, for plenamente possível, e e for inequivocamente compressível que o termo NÃO será mal comprendido, a omissão de explicitude poderá ocorrer, mas com ula ressalva.
-      - PREFERIR: sempre que tecnicamente possível, simplificar drasticamente a sentença ao invez de simplesmente omitir ou remover a explicititude, que PROVAVELMENTE, foi intencionalmente adicionada, para evitar falso positivo, ou positivo falso, diante de testes anteriores. Por simplificar NÃO interpreter reducionismo da intencidade ou força. mas algo análogo a asserções que utilizem uma quantidade significativamente reduzida de tokens, no estilo matemático de sentenças, evitando as dificuldades naturais da lingua/idioma.
-      - Portanto, a remoção e omissão é permtida, mas não é incentivada. E, quando ocorrer, DEVE ocorrer com extrema cautela, GARANTINDO que a obviedade não deixe dúvidas para má interpretação, dubiedade e outros.
-      - No passado, os Agents/IA comumente editaram o agents.md dos seus próprios repositórios, ou do repositório upsream, e até mesmo violaram outras as diretrizes de agents.md, justamente pela ausência de explicitude e força normativa: assim sendo, a omissão ou elimimnação possa ocorrer, ela é considerada temorosa, e DEVE ser feito com extrema cautela. Havendo inequivo pode, mas prefira, eu reitero, e desejo que isso seja reiterado no to-to resultaten, prefira um resumo ultra suscinto e agressivo da frase, mas que ainda mantenha a explicitude se dubiedade ou má interpretação - contudo eu não faço disso uma proibição.
-  - Revisões de texto já existente nas normas, PODEM ser feitos, desde que haja justificativa técnica plausível, que aprimore, evolua o rigot técnico, eliminação de dubiedades, redução de tokens e de má interpretações, ganha de desenpenho e otimização na leitura pela IA, sem perda de sentido, conceito, ideia, e objetivo. Ou seja, refinamnente de aprimoramento.
-    Pesquisa na WEb, em sites bem conceituados, e em especial, em artigos academicos disponíveis publicamente, e recentes, sobre as melhores práticas, melhores métodos e modelos, e melhores formas no desenvolvimento de agents.md e seus subarquivos, os testes e diretrizes. Embora nãomseja para aplicálas à revelia, se, e SOMENTE SE, eles não infrigirem as preocupações cautelares quanto a regressão, potencial omissão criango lacuna sou espaços para má interpretação, perda de intenidade, rigor ou força ainda que paulatinamente, então PODEM ser aplicadas, contudo, se houver estimativa de postencial prejuízo, então, faça uma breve explicação "do que", "como", prós e contras, "e onde", para que o dev decida.
-  - Os roteamente DEVEM permanecer sendo realizados por meio de tabelas e, se for conveniente, e otimizar, PODEM ser separados em multiplas tabelas conforme contexto/escopo.
-  - O conceito e uso de microtexto/microconceitos DEVE ser reforçado, aprimorado e usado de forma continua, SEMPRE que permitir ganho em alguma rota.
-  - Agents.md já implementa vários e diveross scripts; crie para os scripts que são apropriados, Skills ou, quando conveniente, SubAgents, que agrupem vários destes scripts que em geral ou comumente seriam executados em conjunto e sob a supervisão de uma IA, visando otimizar ainda mais a atuação principal do agent principal.
-  - Muitos scripts ou verificações, como por mero exemplo, a verificação de um código implementado (sua execução), bem como uma avaliação de um aplicativo ou site, podem demorar bem mais do que se projeta, e isso toma muito tempo do agent principal e tem alto potencial de consumir tokens ou tempo de processamento. EM muitas situações, o agent ou a IA fica verificando regularmente a saída ou resultado de uma exeução, em um intervalor muito curto, incompatível com a realidade real daquele comando, mesmo que já tenha aprendido antes, ou mesmo que já se lembre que aquele comando demora mesmo, o que ocasiona disperdício de recursos: isso nunca pode ocorrer. O agent/IA DEVE atuar de forma pro ativa, diante de cada tipo de execução, evitando consumir tokens ou tempo de processamento desnecessariamente, em especial, quando sabe que dado comando ou tipo de verificação pode demorar muito tempo.
-  - Implemente o arquivo `memory.md` com localização no mesmo diretório do `continue.ia`. Enqaunto o `continue.ia` DEVERÁ preservar todas os cnteúdos relacionados ao estado atual de processamento para retormada, DEVENDO ser atualizado continuamente, a cada passo, etapa, por menores que sejam; o `memory.md` visa ser um arquivo de aprendizado do Agent/IA quanto ao projeto como um todo: o que dá certo e o que não dá certo; em que condições ou em que computador dá certo em em que condiçòes ou computador não dá certo (deve-se considerar que um mesmo projeto pode, mesmo pelo mesmo dev, ser aberto em múltiplos computadores); quais tentativas já foram feitas, o que falhou, o que demora muito e compensa esperar mais para ficar verificando, entre outras coisas já amplamente consolidads no mercado e que são úteis de serem colocados e armazenados no `memory.md`.
-    - O `memory.md` tem foco 100% para IA, portanto, a redução de tokens e densidade informacional devem ser agressivamente otimizaadas para a leitura por IA e não por huamnos, evitando tokerns que, humanos precisariam para compreender.
-    - O `memory.md` deve ser ultra suscinto, mas isso não significa eliminar informação necessário ao bom desempenho do agents/ia.
-    - O `memory.md` DEVE ser lido obrigatóriamente, exceto e apenas se, houve justificativa técnica plausível, com, por mero exemplo, um procedimento totalmente mecânico - neste caso, um script puro DEVE ser preferido à IA/Agent.
-    - Mover de `continue.ia` para `memory.md` qualquer diretriz/funcionalidade que seja comatível com a definição atual de `memory.md`, exceto a função que fica preservado ao `continue.ia` de preservar o estado atual de cada FT, e o estato atual em que o projeto/repositório parou ou foi interrompido.
-    - Mover: interpreta-se que, algumas das características de `memory.md` estavam presentes/definidas para `continue.ia`, e agora, DEVE-SE segregar o que cada arquivo faz, e NÃO eliminar as funçòes deles, suas necessidades, e finalidades.
-  - Skill e Subagents do repositório construtor de agents.md tem uma finalidade totalmente diferente da deste repositório atual: ele visa ser generalista, funcionar para qualquer cenário possível, e para multiplos tipos de repositório, portanto, a especialização não é toleada. O conceito de hokable atualmente aplicável tanto ao agents.md quanto aos scriot também DEVE ser aplicável às SKILLS e Subagents criadas nele, e DEVE permanecer como algo opcional a ser fornecido - ou seja, a SKILL, Subagents e scripts, DEVEM ser totalmente funcionais independente do fornecimento destes hoockes, tanto quanto tecnicamente viável.
-    - Regras de manifesto para fornecimento de informações sobre os hookes e diretrizes aos repositórios DEVEM ser obedecidas e criadas para cada um deles.
-    - Com muita cautela, rigor técnico e cuidado para não regredir, verificar se algum roteamento de cenário, atualmente preexitente em agents.md e não identificado como SKILL ou Subnagents, seria melhor enquadrada NÃO como cenário (ou o equivalente atualmente nomeado), mas como SKILL ou Subnagents - e se sua função, finalidade, e procedimento são de fato aplicáveis. Se for, cirugircamente para cada um deles, faça a conversão.
-    - Skills e SubAgents DEVEM ter diretórios próprio bem nomeados e bem definidos dentro de `.ia.rules/`, aquele, dentro de `src/` que é de fato o local de edição.
-  - NENHUMA edição pode regredir, ou reuzir a força normativa, a intencidade, explicitude, ou rigor técnico, ou ainda, remover features ainda que expressamente autorizados. Sempre que, algo for compreendido na solicitação como tal, DEVE ser relido e conciliado como uma integração de aprimoramento, e NÃO de revogação ou involução. Se, não houver possibilidade lógica de coexistêncuia, então, questione obrigatoriamente o desenvolver. Se a coexistência, mesmo que tolerável do ponto de vista lógica, ocasionar fragilidades inequivocas, também questione o desenvolver. EM ambos os casos:"do que", "como", prós e contras, "e onde", para que o dev decida.
+    - Conceitos óbvios para a IA, que não necessitem de pesquisa externa nem de leitura de novos tokens, NÃO DEVEM ser explicitados:
+      - Mero exemplo: "soma-se 2 mais 4". Esta frase demonstra um conceito muito básico (de nível de ensino fundamental), que se espera que a IA saiba, sem precisar ler novos tokens, sem precisar pesquisar conteúdo externo e sem demandar processamento adicional; é diferente, por mero exemplo, de outra frase, como "visando mitigar o fluxo de commodities que poderiam impactar a demanda local e, ao mesmo tempo, em uma tentativa frívola de incentivar o desenvolvimento da produção nacional, mesmo diante de altas taxas de impostos", que pode ser uma frase que, apesar de uma aparente lógica, exija conhecimentos mais específicos da área.
+      - Assim sendo, SOMENTE SE, e APENAS SE, for plenamente possível e for inequivocamente compreensível que o termo NÃO será mal compreendido, a omissão de explicitude poderá ocorrer, mas com uma ressalva.
+      - PREFERIR: sempre que tecnicamente possível, simplificar drasticamente a sentença em vez de simplesmente omitir ou remover a explicitude, que PROVAVELMENTE foi intencionalmente adicionada para evitar falso positivo ou falso negativo diante de testes anteriores. Por simplificar, NÃO interpretar como reducionismo da intensidade ou força, mas como algo análogo a asserções que utilizem uma quantidade significativamente reduzida de tokens, no estilo matemático de sentenças, evitando as dificuldades naturais da língua/idioma.
+      - Portanto, a remoção e a omissão são permitidas, mas não incentivadas. E, quando ocorrerem, DEVEM ocorrer com extrema cautela, GARANTINDO que a obviedade não deixe dúvidas nem margem para má interpretação, dubiedade e outros problemas.
+      - No passado, os Agents/IA comumente editaram o agents.md dos seus próprios repositórios, ou do repositório upstream, e até mesmo violaram outras diretrizes do agents.md, justamente pela ausência de explicitude e força normativa. Assim sendo, embora a omissão ou eliminação possa ocorrer, ela é considerada temerosa e DEVE ser feita com extrema cautela. Havendo inequívoca possibilidade, pode ocorrer, mas prefira — eu reitero, e desejo que isso seja reiterado no resultado da TO-DO — um resumo ultrassucinto e agressivo da frase, mas que ainda mantenha a explicitude, sem dubiedade ou má interpretação; contudo, eu não faço disso uma proibição.
+    - Revisões de texto já existente nas normas PODEM ser feitas, desde que haja justificativa técnica plausível que aprimore e evolua o rigor técnico, elimine dubiedades, reduza tokens e más interpretações, gere ganho de desempenho e otimize a leitura pela IA, sem perda de sentido, conceito, ideia e objetivo. Ou seja, refinamento de aprimoramento.
+    - Pesquise na Web, em sites bem conceituados e, em especial, em artigos acadêmicos disponíveis publicamente e recentes, sobre as melhores práticas, melhores métodos e modelos, e melhores formas no desenvolvimento de agents.md e seus subarquivos, seus testes e diretrizes. Embora não seja para aplicá-las à revelia, se, e SOMENTE SE, elas não infringirem as preocupações cautelares quanto à regressão, potencial omissão criando lacunas ou espaços para má interpretação, perda de intensidade, rigor ou força, ainda que paulatinamente, então PODEM ser aplicadas. Contudo, se houver estimativa de potencial prejuízo, faça uma breve explicação "do que", "como", prós e contras e "onde", para que o dev decida.
+    - Os roteamentos DEVEM permanecer sendo realizados por meio de tabelas e, se for conveniente e otimizar, PODEM ser separados em múltiplas tabelas conforme contexto/escopo.
+    - O conceito e uso de microtexto/microconceitos DEVE ser reforçado, aprimorado e usado de forma contínua, SEMPRE que permitir ganho em alguma rota.
+    - Agents.md já implementa vários e diversos scripts; crie, para os scripts que forem apropriados, Skills ou, quando conveniente, SubAgents, que agrupem vários desses scripts que, em geral ou comumente, seriam executados em conjunto e sob a supervisão de uma IA, visando otimizar ainda mais a atuação do agent principal.
+    - Muitos scripts ou verificações, como, por mero exemplo, a verificação de um código implementado (sua execução), bem como uma avaliação de um aplicativo ou site, podem demorar bem mais do que se projeta, e isso toma muito tempo do agent principal e tem alto potencial de consumir tokens ou tempo de processamento. Em muitas situações, o agent ou a IA fica verificando regularmente a saída ou o resultado de uma execução em um intervalo muito curto, incompatível com a duração real daquele comando, mesmo que já tenha aprendido antes, ou mesmo que já se lembre de que aquele comando demora, o que ocasiona desperdício de recursos: isso nunca pode ocorrer. O agent/IA DEVE atuar de forma proativa diante de cada tipo de execução, evitando consumir tokens ou tempo de processamento desnecessariamente, em especial quando sabe que dado comando ou tipo de verificação pode demorar muito tempo.
+    - Implemente o arquivo `memory.md` com localização no mesmo diretório do `continue.ia`. Enquanto o `continue.ia` DEVERÁ preservar todos os conteúdos relacionados ao estado atual de processamento para retomada, DEVENDO ser atualizado continuamente, a cada passo ou etapa, por menores que sejam, o `memory.md` visa ser um arquivo de aprendizado do Agent/IA quanto ao projeto como um todo: o que dá certo e o que não dá certo; em que condições ou em que computador dá certo e em que condições ou computador não dá certo (deve-se considerar que um mesmo projeto pode, mesmo pelo mesmo dev, ser aberto em múltiplos computadores); quais tentativas já foram feitas; o que falhou; o que demora muito e compensa esperar mais antes de ficar verificando; entre outras coisas já amplamente consolidadas no mercado e que são úteis de serem colocadas e armazenadas no `memory.md`.
+      - O `memory.md` tem foco 100% para IA; portanto, a redução de tokens e a densidade informacional devem ser agressivamente otimizadas para a leitura por IA, e não por humanos, evitando tokens de que humanos precisariam para compreender.
+      - O `memory.md` deve ser ultrassucinto, mas isso não significa eliminar informação necessária ao bom desempenho dos Agents/IA.
+      - O `memory.md` DEVE ser lido obrigatoriamente, exceto, e apenas se, houver justificativa técnica plausível, como, por mero exemplo, um procedimento totalmente mecânico — neste caso, um script puro DEVE ser preferido à IA/Agent.
+      - Mover de `continue.ia` para `memory.md` qualquer diretriz/funcionalidade que seja compatível com a definição atual de `memory.md`, exceto a função que fica preservada ao `continue.ia` de preservar o estado atual de cada FT e o estado atual em que o projeto/repositório parou ou foi interrompido.
+      - Mover: interpreta-se que algumas das características de `memory.md` estavam presentes/definidas para `continue.ia` e, agora, DEVE-SE segregar o que cada arquivo faz, e NÃO eliminar as funções deles, suas necessidades e finalidades.
+    - Skills e SubAgents do repositório construtor de agents.md têm uma finalidade totalmente diferente da deste repositório atual: ele visa ser generalista, funcionar para qualquer cenário possível e para múltiplos tipos de repositório; portanto, a especialização não é tolerada. O conceito de hookable atualmente aplicável tanto ao agents.md quanto aos scripts também DEVE ser aplicável às SKILLS e SubAgents criadas nele e DEVE permanecer como algo opcional a ser fornecido — ou seja, as SKILLs, SubAgents e scripts DEVEM ser totalmente funcionais independentemente do fornecimento desses hooks, tanto quanto tecnicamente viável.
+      - Regras de manifesto para fornecimento de informações sobre os hooks e diretrizes aos repositórios DEVEM ser obedecidas e criadas para cada um deles.
+      - Com muita cautela, rigor técnico e cuidado para não regredir, verificar se algum roteamento de cenário, atualmente preexistente em agents.md e não identificado como SKILL ou SubAgent, seria melhor enquadrado NÃO como cenário (ou o equivalente atualmente nomeado), mas como SKILL ou SubAgent, e se sua função, finalidade e procedimento são de fato aplicáveis. Se for, cirurgicamente, para cada um deles, faça a conversão.
+      - Skills e SubAgents DEVEM ter diretórios próprios, bem nomeados e bem definidos, dentro de `.ia.rules/`, este dentro de `src/`, que é de fato o local de edição.
+    - NENHUMA edição pode regredir ou reduzir a força normativa, a intensidade, explicitude ou rigor técnico, ou ainda remover features, ainda que expressamente autorizada. Sempre que algo for compreendido na solicitação como tal, DEVE ser relido e conciliado como uma integração de aprimoramento, e NÃO de revogação ou involução. Se não houver possibilidade lógica de coexistência, então questione obrigatoriamente o desenvolvedor. Se a coexistência, mesmo que tolerável do ponto de vista lógico, ocasionar fragilidades inequívocas, também questione o desenvolvedor. Em ambos os casos: "do que", "como", prós e contras e "onde", para que o dev decida.
+  - Um novo cenário, ou SKILL ou SubAgents DEVE ser criado em `agents.md` contendo, de forma aprimorada e ultra rigorosa, sem perder detanhes e nuances, as normativas para a execução do `TODO.ia.md`. Tal diretrizes normas, senão me angano já existem, e devem ser agregadas (somadas) com o texto abaixo - é claro, aprimorando e ajustando sua total integração:
+
+    ```markdown
+    # RCF — Governança da TO-DO
+
+    Esta seção de governança DEVE permanecer no topo do arquivo, NÃO PODE ser removida nem editada e rege todas as TO-DOs posteriores até o marcador explícito de início das TO-DOs operacionais.
+
+    O arquivo TODO.ia.md não pode ser removido.
+
+    ## 1. Estrutura normativa do arquivo
+
+    Este arquivo constitui uma lista normativa e operacional de TO-DOs convergentes.
+
+    Todo item de topo DEVE:
+
+    - iniciar exatamente com `- [ ]` ou `- [x]`;
+    - começar sem indentação;
+    - representar uma frente autônoma subordinada às normas deste RCF.
+
+    Todo conteúdo imediatamente posterior a um item de topo, enquanto não houver outro item iniciado sem indentação por `- [ ]` ou `- [x]`, DEVE ser interpretado como subordinado ao item de topo imediatamente anterior.
+
+    A forma interna dessa subordinação é livre: PODE conter subtítulos, subitens, regras em estilo RCF, ordens, critérios, listas de afazeres, etapas, notas ou estruturas equivalentes. A semântica hierárquica prevalece sobre a forma.
+
+    A formatação do arquivo DEVE preservar indentação visual coerente e inequívoca de todo conteúdo subordinado. Títulos, listas, blocos e demais conteúdos pertencentes a um item de topo DEVEM permanecer visualmente aninhados a ele.
+
+    ## 2. Status, andamento e conclusão
+
+    Cada item/subitem DEVE usar **apenas um emoji como marcador de status**, substituindo integralmente o checkbox do GitHub. **O nome ou a descrição do status NÃO DEVE acompanhar a tarefa**; existem apenas nesta legenda.
+
+    Exemplo: `⏳ Implementar suporte a YAML` — e NÃO `⏳ Em desenvolvimento: Implementar suporte a YAML`.
+
+    - ⬜ **Não iniciada:** na fila, aguardando início.
+    - 📌 **Registrada:** possui **FT (Frente de Trabalho)** equivalente criada.
+    - 📜 **Normatizada:** revisada, alinhada aos requisitos técnicos e incorporada ao RCF ou norma equivalente.
+    - ⚖️ **Equalizada:** compatibilizada com as demais TO-DOs, podendo ter sido ajustada/adaptada para eliminar conflitos, redundâncias ou inconsistências.
+    - ⏳ **Em desenvolvimento:** implementação em andamento.
+    - 🔄 **Retomada:** retornou ao desenvolvimento após feedback ou correção de bugs solicitada pelo dev.
+    - 🔎 **A revisar:** já percorreu uma ou mais etapas, mas exige reavaliação frente a novas demandas, TO-DOs ou revisões do projeto quanto à **adequação, pertinência, atualidade e ajustes necessários**.
+    - ✅ **Concluída — pendente de validação:** implementação finalizada, aguardando aprovação humana (Code Review/QA).
+
+    > ⚠️ **Regras:** o **emoji, isoladamente, identifica o status** e DEVE substituir qualquer checkbox ou indicação textual equivalente no item/subitem. Nem toda tarefa precisa percorrer todos os estados; apenas **⬜ Não iniciada**, **⏳ Em desenvolvimento** e **✅ Concluída** integram obrigatoriamente o ciclo mínimo, enquanto os demais aplicam-se quando pertinentes. Após validação e aprovação efetiva pelo dev, a tarefa DEVE ser **removida integralmente da lista**. ✅ significa **implementada**, não **aprovada/encerrada**.
+
+    ## 3. Regra perene de convergência
+
+    - [ ] Equalizar e executar as TO-DOs como frentes convergentes de um único objetivo
+      - Este item rege todas as demais TO-DOs. Cada uma DEVE ser tratada como frente complementar de uma única execução, conciliada com as demais e convergente ao objetivo principal do projeto.
+
+      - Contradições aparentes DEVEM ser presumidas como imprecisão redacional e resolvidas por equalização, sem perda de intenção, requisito, restrição ou nuance. Havendo conflito material não solucionável pelas normas e pelo contexto, o desenvolvedor DEVE ser consultado.
+
+      - Considerações, comparações ou solicitações PODEM não ser plenamente aderentes ao projeto, especialmente quando previamente processadas por IA. Salvo dúvida material, a IA DEVE interpretá-las conforme o contexto já normatizado no RCF e no `README.md`; persistindo ambiguidade ou incompatibilidade, DEVE consultar o desenvolvedor antes de prosseguir.
+
+      - O `AGENTS.md` prevalece absolutamente; o RCF vigente prevalece sobre as demais fontes subordinadas. Toda alteração DEVE aprimorar o projeto, ampliar capacidades e recursos, preservar compatibilidade e força normativa e NÃO PODE introduzir regressão.
+
+      - Antes de executar qualquer TO-DO, a IA DEVE:
+        1. ler integralmente todas as TO-DOs e normas aplicáveis;
+        2. equalizar objetivos, requisitos, dependências, precedências e terminologia;
+        3. resolver incompatibilidades, ambiguidades, sobreposições e lacunas;
+        4. adaptar, consolidar, desmembrar, reordenar ou eliminar itens somente quando isso aumentar a coerência sem reduzir o objetivo material.
+
+      - Toda TO-DO DEVE ser separada em fases:
+        - **Normatização (RCF):** atualização de RCFs, contratos, precedências e documentação normativa necessária;
+        - **Implementação:** código, migrações, testes, validações e alterações funcionais.
+
+      - Após a equalização, a IA DEVE iniciar e concluir imediatamente a **Normatização RCF de todas as TO-DOs**, mantendo rastreabilidade entre cada regra e sua implementação futura.
+
+      - Concluída a normatização, a IA DEVE INTERROMPER antes de qualquer implementação e solicitar autorização expressa do desenvolvedor, informando sucintamente:
+        - implementações pendentes;
+        - dependências e ordem recomendada;
+        - impedimentos materiais identificados.
+
+      - Somente quando aplicável ao contexto do repositório, toda alteração que modifique o modo de codificar Markdown DEVE ser documentada no respectivo modo de uso.
+
+      - Este item e toda a seção `# RCF — Governança da TO-DO` são perenes: NÃO PODEM ser marcados como concluídos, removidos ou alterados. Sua contabilização somente é necessária enquanto existir ao menos uma TO-DO por eles regida.
+    ```
+
+    - Especificamente quanto ao título `## 2. Status, andamento e conclusão` do texto acima, ele passa a ser regra de notação para itens de todo RCF, TODO.ia.md e continue.ia e outro que implique em lista de afazares (e status dos afazeres), relacionados diretamente a estes.
