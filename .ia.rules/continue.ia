@@ -14,7 +14,7 @@ validacao=quick_validate, YAML, rotas, hashes, git diff e npm run check aprovado
   2/3 Auditar equivalencia semantica e carregamento sob demanda [concluido]
   3/3 Executar verificacoes do repositorio e encerrar FT [concluido]
 
-FT-002|nome=todo-evolucao-agents-upstream|escopo=Tecnico|status=em_andamento
+FT-002|nome=todo-evolucao-agents-upstream|escopo=Tecnico|status=concluido
 objetivo=Converter o TODO.ia.md em uma TO-DO unica, pesquisada e executavel para evoluir o repositorio construtor de agents.md, sem implementar o upstream.
 fontes=.ia.rules/state/requests/FT-002/
 autorizacao=Solicitacao humana de 2026-09-12 para executar TODO.ia.md.
@@ -26,7 +26,7 @@ validacao=fonte e adendo preservados por SHA-256; hierarquia com uma unica raiz;
 2/3 Gerar o artefato [concluido]
   1/2 Reestruturar TODO.ia.md pela skill gerar-pedidos-ia [concluido]
   2/2 Corrigir apenas referencias locais quebradas da skill [concluido]
-3/3 Validar e concluir [em andamento]
+3/3 Validar e concluir [concluido]
   1/3 Auditar cobertura semantica, hierarquia e fontes [concluido]
   2/3 Executar validacoes aplicaveis do repositorio [concluido]
-  3/3 Commitar e publicar dev sem alterar o upstream [em andamento]
+  3/3 Commitar e publicar dev sem alterar o upstream [concluido]
