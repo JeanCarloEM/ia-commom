@@ -1,14 +1,15 @@
-FT-001|nome=skill-gerador-artefatos-tecnicos|escopo=normativo|status=em_andamento
+FT-001|nome=skill-gerador-artefatos-tecnicos|escopo=normativo|status=concluido
 objetivo=Converter exclusivamente o segundo anexo em skill local e normatizar roteamento contextual de skills e subagents.
 fontes=.ia.rules/state/requests/FT-001/
 autorizacao=Solicitacao humana de 2026-09-12; autorizacao expressa para concluir tudo.
+validacao=quick_validate, YAML, rotas, hashes, git diff e npm run check aprovados; npm test nao aplicavel ao perfil consumidor sem test/.
 1/3 Registrar fonte e plano [concluido]
   1/3 Preservar anexos, hashes e esclarecimento de escopo [concluido]
-2/3 Materializar skill e roteamento [pendente]
-  1/3 Criar skill semanticamente equivalente ao segundo anexo [pendente]
-  2/3 Criar agents.local.md como roteador contextual minimo [pendente]
-  3/3 Materializar raizes skills/ e subagents/ sem subagent funcional [pendente]
-3/3 Validar e concluir [pendente]
-  1/3 Validar skill, frontmatter, caminhos e Markdown [pendente]
-  2/3 Auditar equivalencia semantica e carregamento sob demanda [pendente]
-  3/3 Executar verificacoes do repositorio e encerrar FT [pendente]
+2/3 Materializar skill e roteamento [concluido]
+  1/3 Criar skill semanticamente equivalente ao segundo anexo [concluido]
+  2/3 Criar agents.local.md como roteador contextual minimo [concluido]
+  3/3 Materializar raizes skills/ e subagents/ sem subagent funcional [concluido]
+3/3 Validar e concluir [concluido]
+  1/3 Validar skill, frontmatter, caminhos e Markdown [concluido]
+  2/3 Auditar equivalencia semantica e carregamento sob demanda [concluido]
+  3/3 Executar verificacoes do repositorio e encerrar FT [concluido]

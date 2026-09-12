@@ -9,3 +9,5 @@
 - Autorização: o usuário autorizou expressamente concluir toda a solicitação e, depois, autorizou `fetch`, commits e eventual `push` exclusivamente para `origin` (`https://github.com/JeanCarloEM/ia-commom.git`).
 
 Os dois anexos foram copiados byte a byte dos caminhos recebidos. O primeiro termina originalmente em `→ leitura das d`; nenhuma continuação foi inferida.
+
+Resultado normativo: `../../../../skills/gerar-artefatos-tecnicos/SKILL.md`, alcançado exclusivamente pela rota registrada em `../../../../agents.local.md`. As cópias desta pasta são evidência histórica e NÃO constituem fonte normativa ativa concorrente.
