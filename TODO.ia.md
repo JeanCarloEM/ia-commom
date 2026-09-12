@@ -16,6 +16,7 @@
     - O objetivo do resultado é uma TO-DO que editará o agents.md diretamente no repositório upstream de origem.
       - NÃO é para executar as solicitações, APENAS criar a TO-DO, que será inserida no repositório construtor do agents.md.
       - O target `agents.md` para edição no repositório construtor é o `./src/`, exceto o RCF e sub-RCFs, que devem ser atualizados.
+    - Uma reestruturação da ordem das solicitações/sentenças, agrupamento, ou desagrupamento, pode ser feita, a fim de tornar a evolução do raciocínio mais fluido, a lógica mais adequada e o contexto melhor distribuído.
 
   - SOLICITAÇÕES:
     - Aplique, sem perder os detalhes, nuances, rigor técnico, intensidade, força e explicitude já existentes no agents.md e RCF, neste apenas chamado de normas.
