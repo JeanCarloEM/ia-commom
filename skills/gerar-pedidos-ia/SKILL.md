@@ -77,7 +77,7 @@ Preferir `.md` para prompt, issue e TO-DO quando não houver formato superior ap
 
 ## Precedência e estado real
 
-Quando existirem, considerar `AGENTS.md`, RCFs, `README`, `continue.ia`, `TOTO.ia.md`, FTs, issues e demais fontes normativas ou rastreáveis. Distinguir norma operacional de especificação arquitetural, preservar contratos comuns e especializações locais válidas, evitar regressões entre normas e NÃO alterar norma para legitimar implementação divergente, salvo quando a alteração normativa for o próprio objeto.
+Quando existirem, considerar `AGENTS.md`, RCFs, `README`, `continue.ia`, `TODO.ia.md`, FTs, issues e demais fontes normativas ou rastreáveis. Distinguir norma operacional de especificação arquitetural, preservar contratos comuns e especializações locais válidas, evitar regressões entre normas e NÃO alterar norma para legitimar implementação divergente, salvo quando a alteração normativa for o próprio objeto.
 
 Se o pedido depender de código, arquitetura, comportamento, arquivo, configuração ou implementação existente não comprovada, NÃO presumir: determinar que a IA executora inspecione o estado real, condicionar decisões ao encontrado, preservar contratos existentes e NÃO inventar alternativa sem necessidade comprovada.
 

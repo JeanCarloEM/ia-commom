@@ -1,7 +1,7 @@
 interface:
   display_name: "Gerar pedido para IA"
   short_description: "Gera prompts, issues, RCFs e TODOs técnicos"
-  default_prompt: "Use $gerar-artefatos-tecnicos para converter esta solicitação em um artefato técnico pronto para outra IA."
+  default_prompt: "Use $gerar-pedidos-ia para converter esta solicitação em um artefato técnico pronto para outra IA."
 
 policy:
   allow_implicit_invocation: false

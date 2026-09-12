@@ -10,4 +10,4 @@
 
 Os dois anexos foram copiados byte a byte dos caminhos recebidos. O primeiro termina originalmente em `→ leitura das d`; nenhuma continuação foi inferida.
 
-Resultado normativo: `../../../../skills/gerar-artefatos-tecnicos/SKILL.md`, alcançado exclusivamente pela rota registrada em `../../../../agents.local.md`. As cópias desta pasta são evidência histórica e NÃO constituem fonte normativa ativa concorrente.
+Resultado normativo atual: `../../../../skills/gerar-pedidos-ia/SKILL.md`, alcançado exclusivamente pela rota registrada em `../../../../agents.local.md`. As cópias desta pasta são evidência histórica e NÃO constituem fonte normativa ativa concorrente.

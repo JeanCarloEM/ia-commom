@@ -11,11 +11,11 @@ Resolver primeiro a necessidade material da tarefa; então consultar somente o c
 
 ## Rotas
 
-### `gerar-artefatos-tecnicos`
+### `gerar-pedidos-ia`
 
 - **Carregar quando:** for necessário criar, converter ou reestruturar uma solicitação em prompt, issue do GitHub, RCF, lista TO-DO ou artefato técnico equivalente pronto para outra IA.
 - **NÃO carregar quando:** a tarefa pedir execução direta da implementação, análise ou relatório sem geração desse artefato, mera redação sem finalidade técnica, ou apenas execução de artefato já pronto.
-- **Caminho:** `./skills/gerar-artefatos-tecnicos/SKILL.md`.
+- **Caminho:** `./skills/gerar-pedidos-ia/SKILL.md`.
 
 ## Novos artefatos
 
