@@ -7,5 +7,6 @@
 - Preservação integral, reconstituível byte a byte: `prompt-original.base64`.
 - Projeção legível normalizada para LF: `prompt-original.md` (SHA-256 `8356143090EF48FC27E3E2DC2029B09807B3B140051E34AA39F80B890DFB4BC8`).
 - Correção posterior de escopo: `adendo-aspas.md`.
+- Ampliação posterior de escopo: `adendo-delimitadores.md`.
 - Repositório externo autorizado apenas para leitura: `D:\trampo\jeancarloem.com.blog\`.
 - Destino deste ciclo: `TODO.tts-redacao.ia.md`; o artefato orienta futura execução no construtor de `agents.md`, sem implementar nem modificar repositório externo neste ciclo.

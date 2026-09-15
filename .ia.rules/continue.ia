@@ -35,7 +35,7 @@ FT-003|nome=todo-tts-edicao-redacional|escopo=Tecnico|status=concluido
 objetivo=Gerar TO-DOs autossuficientes para migrar normas de TTS e edição redacional do consumidor, sem modificar a origem externa.
 fontes=.ia.rules/state/requests/FT-003/
 autorizacao=Solicitação humana de 2026-09-15 para executar o prompt anexo.
-validacao=fonte e adendo preservados; leitura de aspas separada de blockquote, termo substitutivo ausente; uma raiz TO-DO, zero linhas não subordinadas, git diff --check e npm run check aprovados.
+validacao=fonte e adendos preservados; revisão de delimitadores separa aspas, parênteses, colchetes e blockquote, com pares/aninhamento e testes; expressão substitutiva ausente; git diff --check e npm run check aprovados.
 1/4 Registrar fonte, FT e contexto [concluido]
   1/2 Preservar integralmente o anexo e seu SHA-256 [concluido]
   2/2 Registrar fronteira de leitura externa e entrega [concluido]
