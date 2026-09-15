@@ -30,3 +30,23 @@ validacao=fonte e adendo preservados por SHA-256; hierarquia com uma unica raiz;
   1/3 Auditar cobertura semantica, hierarquia e fontes [concluido]
   2/3 Executar validacoes aplicaveis do repositorio [concluido]
   3/3 Commitar e publicar dev sem alterar o upstream [concluido]
+
+FT-003|nome=todo-tts-edicao-redacional|escopo=Tecnico|status=em_andamento
+objetivo=Gerar TO-DOs autossuficientes para migrar normas de TTS e edição redacional do consumidor, sem modificar a origem externa.
+fontes=.ia.rules/state/requests/FT-003/
+autorizacao=Solicitação humana de 2026-09-15 para executar o prompt anexo.
+validacao=pendente: integridade da fonte, auditoria de cobertura, consumidor somente leitura, Markdown, git diff e npm run check.
+1/4 Registrar fonte, FT e contexto [concluido]
+  1/2 Preservar integralmente o anexo e seu SHA-256 [concluido]
+  2/2 Registrar fronteira de leitura externa e entrega [concluido]
+2/4 Extrair contratos e decidir roteamento [em_andamento]
+  1/3 Inspecionar normas reais de TTS e edição no consumidor [pendente]
+  2/3 Inspecionar a arquitetura disponível no destino [pendente]
+  3/3 Separar regra herdada, aperfeiçoamento e decisão condicionada [pendente]
+3/4 Gerar TO-DOs autossuficientes [pendente]
+  1/2 Produzir a menor decomposição coesa em Markdown [pendente]
+  2/2 Registrar rastreabilidade e contrato hookable [pendente]
+4/4 Auditar e concluir [pendente]
+  1/3 Validar cobertura, hierarquia e referências [pendente]
+  2/3 Executar verificações aplicáveis sem tocar a origem [pendente]
+  3/3 Commitar, publicar dev e encerrar FT [pendente]
